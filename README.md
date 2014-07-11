@@ -23,19 +23,19 @@ or download the css on github and include in your project.
 .i       { font-style: italic; }
 .oblique { font-style: oblique; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .fsn-ns     { font-style: normal; }
   .i-ns       { font-style: italic; }
   .oblique-ns { font-style: oblique; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .fsn-m     { font-style: normal; }
   .i-m       { font-style: italic; }
   .oblique-m { font-style: oblique; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .fsn-l      { font-style: normal; }
   .i-l        {  font-style: italic; }
   .oblique-l { font-style: oblique; }

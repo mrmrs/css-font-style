@@ -9,13 +9,18 @@
 *  -l  = large
 
 ## Install
+Grab the css partial from github and include it in your project or alternatively
+you can install it via npm:
 ```
 npm install --save-dev css-font-style
 ```
-or download the css on github and include in your project.
+View on [npm](https://www.npmjs.org/package/css-font-style)
+
 
 ## File Size
 
+608B font-style.css
+443B font-style.min.css
 
 ## The Code
 ```

@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-font-style)
 ## File Size
 
 608B font-style.css
-443B font-style.min.css
+443B font-style.min.css 
+160B minified and gzipped
 
 ## The Code
 ```

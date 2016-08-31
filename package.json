@@ -1,7 +1,7 @@
 {
   "name": "css-font-style",
   "style": "font-style.css",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "homepage": "http://github.com/mrmrs/css-font-style",
   "description": "Css module of single purpose classes for font style",
   "keywords": [
@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^1.0.2"
+    "tachyons-cli": "^1.0.4"
   },
   "scripts": {
     "start": "tachyons src/css-font-style.css > css/css-font-style.css && tachyons src/css-font-style.css --minify > css/css-font-style.min.css && tachyons src/css-font-style.css --generate-docs --package=../../package.json > readme.md"

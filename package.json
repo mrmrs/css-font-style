@@ -1,7 +1,7 @@
 {
   "name": "css-font-style",
   "style": "font-style.css",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "homepage": "http://github.com/mrmrs/css-font-style",
   "description": "Css module of single purpose classes for font style",
   "keywords": [

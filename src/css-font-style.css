@@ -7,9 +7,9 @@
 .oblique { font-style: oblique; }
 
 @media screen and (min-width: 48em) {
-  .fsn-ns     { font-style: normal; }
-  .i-ns       { font-style: italic; }
-  .oblique-ns { font-style: oblique; }
+  .fsn-s     { font-style: normal; }
+  .i-s       { font-style: italic; }
+  .oblique-s { font-style: oblique; }
 }
 
 @media screen and (min-width:48em) and (max-width: 64em) {

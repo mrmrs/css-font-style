@@ -6,19 +6,19 @@
 .i       { font-style: italic; }
 .oblique { font-style: oblique; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .fsn-s     { font-style: normal; }
   .i-s       { font-style: italic; }
   .oblique-s { font-style: oblique; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .fsn-m     { font-style: normal; }
   .i-m       { font-style: italic; }
   .oblique-m { font-style: oblique; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .fsn-l      { font-style: normal; }
   .i-l        {  font-style: italic; }
   .oblique-l { font-style: oblique; }

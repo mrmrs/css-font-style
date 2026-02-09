@@ -1,38 +1,44 @@
 {
   "name": "css-font-style",
-  "style": "font-style.css",
-  "version": "1.0.8",
-  "homepage": "http://github.com/mrmrs/css-font-style",
-  "description": "Css module of single purpose classes for font style",
+  "version": "2.0.0",
+  "description": "Functional CSS for font-style",
+  "style": "dist/font-style.css",
+  "main": "dist/font-style.css",
+  "exports": {
+    ".": "./dist/font-style.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "font-style"
+    "font-style",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-font-style": {
+  "homepage": "https://github.com/mrmrs/css-font-style",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-font-style.git"
+    "url": "https://github.com/mrmrs/css-font-style.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-font-style/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-font-style/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
